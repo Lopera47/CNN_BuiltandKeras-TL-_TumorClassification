@@ -3,7 +3,7 @@ General information:
 2. The main aim is to improve my Deep Learnig skills aplying a Convolutional Neural Network for image classification.
 3. In this project I used a dataset from kaggle based on brain tumor radiography images.
 (link: https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset).
-4. For the Transfer Learning part. I used the EfficientNetB0 (link:https://keras.io/api/applications/efficientnet/#efficientnetb0-function). Because, it was trained with million of images including brain tumor radiography (link: https://ieeexplore.ieee.org/document/9823526).
+4. For the Transfer Learning part. I used the InceptionV3 (link:https://keras.io/api/applications/inceptionv3/). Because, it was trained with million of images including brain tumor radiographies (link: https://analyticalsciencejournals.onlinelibrary.wiley.com/doi/abs/10.1002/jemt.23688).
 5. All the necessary requirements are on requirements.txt.
 
 - Research question:
@@ -19,4 +19,4 @@ Contents:
 1. in: files used as a inputs (see info_images.txt).
 2. out: final files as part of the outputs including the best classifier (CNN).
 3. EDA.ipynb: file with the exploratory data analysys.
-4. CNN_Classifier.ipynb: building, runnig, tuning and downlading a classifying Convolutional Network.
+4. CNN_Classifier.ipynb: building, runnig, tuning and downlading a classifying Convolutional Network and using a transfer learning model (InceptionV3).
